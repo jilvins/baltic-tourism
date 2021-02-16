@@ -6,7 +6,7 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Navbar</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,39 +15,199 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Riga</a>
-              <a class="nav-link" href="#">Vilnius</a>
-              <a class="nav-link" href="#">Tallin</a>
+              <a class="nav-link" href="#Riga">Riga</a>
+              <a class="nav-link" href="#Vilnius">Vilnius</a>
+              <a class="nav-link" href="#Tallin">Tallin</a>
               
             </div>
           </div>
         </div>
       </nav>
-<section class="container-fluid px-0">
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+<section class="container px-0">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="/bootsrap lapa/images/baltic-sea-4095045_640.jpg" class="d-block w-100 h-50" alt="...">
+            <img src="/bootsrap lapa/images/baltic-sea-4095045_640.jpg" class="d-block w-100" id="car-img" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="/bootsrap lapa/images/house-4028391_640.jpg" class="d-block w-100 h-50" alt="...">
+            <img src="/bootsrap lapa/images/house-4028391_640.jpg" class="d-block w-100" id="car-img" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="/bootsrap lapa/images/sky-264778_640.jpg" class="d-block w-100 h-50" alt="...">
+            <img src="/bootsrap lapa/images/sky-264778_640.jpg" class="d-block w-100" id="car-img" alt="...">
           </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
 </section>
 
-      <section class="container-fluid px-0">
-    <div class="row">
-        <div class="col-lg-6">
-            <h2 class="text-center">Baltic Sea</h2>
+      <section class="container-fluid px-0 ">
+    <div class="row align-items-center city-info" id="Riga">
+        <div class="col-md-6 text-center">
+            <div class="row justify-content-center">
+            <div class="col-10 info-style">
+            <h2 class="">Riga</h2>
+            <img src="/bootsrap lapa/images/100px-Greater_Coat_of_Arms_of_Riga_-_for_display.svg.png" alt="coat of arms of Riga" class="d-none d-lg-inline">
+            <p class="lead">The biggest metropolis in the Baltics, Riga perfectly blends timeless tradition and cutting edge cool. Riga is the beating heart of the whole region, worth being explored on its own – and our suggestions will help you get the best out of your visit!
+                It's charm comes in many guises: from the dainty houses of the Old Town and the art-nouveau grandeur of the historic centre, to hip spots around Miera iela and the wooden gems of Pārdaugava. Season it with local slow-food and craft beers or take a dive into Riga’s world-class cultural offering, for the perfect memorable package.</p>
+                </div>
+            </div>
+            
         </div>
-        <div class="col-lg-6">
-            <img src="/bootsrap lapa/images/baltic-sea-4095045_640.jpg" alt="beach" class="img-fluid">  </div>
+        <div class="col-md-6 ">
+            <img src="/bootsrap lapa/images/latvia-3725546_640.jpg" alt="Panoram of Riga" class="img-fluid">  </div>
     </div>
-    
+
+    <section class="tourism-objects">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="/bootsrap lapa/images/riga/latvia-3725547_640.jpg" class="card-img-top h-50" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                  <button type="button" class="btn btn-info ">More Info</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="/bootsrap lapa/images/riga/riga-2935039_640.jpg" class="card-img-top h-50" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                  <button type="button" class="btn btn-info ">More Info</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="/bootsrap lapa/images/riga/riga-4997825_640.jpg" class="card-img-top h-50" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                  <button type="button" class="btn btn-info ">More Info</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    </section>
+
+
+    <div class="row align-items-center city-info" id="Vilnius">
+        <div class="col-md-6 order-2 order-md-1">
+            <img src="/bootsrap lapa/images/lithuania-966145_640.jpg" alt="Panoram of Vilnius" class="img-fluid">  </div>
+        <div class="col-md-6 text-center order-1 order-md-2">
+            <div class="row justify-content-center">
+            <div class="col-10 info-style">
+            <h2 class="">Vilnius</h2>
+            <img src="/bootsrap lapa/images/100px-Grand_Coat_of_arms_of_Vilnius.svg.png" alt="coat of arms of Vilnius" class="d-none d-lg-inline">
+            <p class="lead">Vilnius is always ready to take you on an adventure. You can explore different parks and districts, take a kayak along one of the rivers for an entirely new perspective of the city, or go on a hike through beautiful natural landscapes sprinkled with historical landmarks. 46% of Vilnius is made up of green spaces, so you can definitely expect a breath of fresh air.</p>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+
+    <section class="tourism-objects">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="/bootsrap lapa/images/vilnius/lithuania-3747589_640.jpg" class="card-img-top h-50" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                  <button type="button" class="btn btn-info ">More Info</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="/bootsrap lapa/images/vilnius/lithuania-4205764_640.jpg" class="card-img-top h-50" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                  <button type="button" class="btn btn-info ">More Info</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="/bootsrap lapa/images/vilnius/vilnius-2181373_640.jpg" class="card-img-top h-50" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                  <button type="button" class="btn btn-info ">More Info</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    </section>
+
+    <div class="row align-items-center city-info" id="Tallin">
+        <div class="col-md-6 text-center">
+            <div class="row justify-content-center">
+            <div class="col-10 info-style">
+            <h2 class="">Tallin</h2>
+            <img src="/bootsrap lapa/images/Tallinn_wapen.svg.png" alt="coat of arms of Tallin" class="d-none d-lg-inline">
+            <p class="lead">Tallinn's atmospheric Old Town is an enthralling hodgepodge of medieval streets and spires. It's a small city, and the tourist areas are safe and easily explored on foot. Buy a Tallinn Card if intending to use buses, trolleys or trams. For a look into Tallinn's past, visit Rocca-al-Mare Open Air Museum's typical rural Estonian taverns, windmills and watermills, see the onion-domed 1900 cathedral or join the bustle in historic Town Hall Square. St. Olav's spire was once the tallest in the world.</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="col-md-6">
+            <img src="/bootsrap lapa/images/tallin-889901_640.jpg" alt="Panoram of Tallin" class="img-fluid">  </div>
+    </div>
+
+    <section class="tourism-objects">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="/bootsrap lapa/images/tallin/cathedral-352534_640.jpg" class="card-img-top h-50" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                  <button type="button" class="btn btn-info ">More Info</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="/bootsrap lapa/images/tallin/tallin-889879_640.jpg" class="card-img-top h-50" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                  <button type="button" class="btn btn-info ">More Info</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="/bootsrap lapa/images/tallin/tower-5480336_640.jpg" class="card-img-top h-50" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                  <button type="button" class="btn btn-info ">More Info</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    </section>
 
 </section>
 
