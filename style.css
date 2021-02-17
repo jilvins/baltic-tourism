@@ -13,7 +13,25 @@ body {
 .city-info {
     margin-top: 100px;
 }
+.tourism-objects{
+    padding: 0 15px;
+    margin-top: 20px;
+}
+.contact-guide{
+    margin-top: 20px;
+    
+}
 
 #car-img{
     height: 500px;
 }
+.modal-body img {
+    width: 470px;
+}
+.card img {
+    height: 200px;
+}
+.navbar-brand img {
+    height: 50px;
+}
+
