@@ -2,6 +2,11 @@ body {
     background-color: lightgray;
     padding-bottom: 20px;
 }
+.scrolled{
+    background-color: dodgerblue !important;
+    transition: 1s;
+}
+
 
 .info-style h2 {
     color: royalblue;
