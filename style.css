@@ -7,6 +7,9 @@ body {
     transition: 1s;
 }
 
+#slide-show{
+    margin-top: 4em;
+}
 
 .info-style h2 {
     color: royalblue;
@@ -14,7 +17,7 @@ body {
 }
 .info-style p {
     color: darkred;
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 2;
 }
 .city-info {
@@ -24,6 +27,10 @@ body {
 .tourism-objects{
     padding: 0 15px;
     margin-top: 20px;
+}
+
+#contacts {
+    margin: 4em auto;
 }
 
 .contact-guide{

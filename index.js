@@ -2,7 +2,7 @@ const navbar = document.querySelector("nav")
 const slideShow = document.getElementById("slide-show")
 
 const slideShowOptions = {
-    rootMargin: "-300px 0px 0px 0px"
+    rootMargin: "-500px 0px 0px 0px"
   };
   
   const slideShowObserver = new IntersectionObserver(function(
