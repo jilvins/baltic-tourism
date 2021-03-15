@@ -40,12 +40,15 @@ body {
 
 #car-img{
     height: 500px;
+    object-fit: cover;
 }
 .modal-body img {
     width: 470px;
+    object-fit: cover;
 }
 .card img {
     height: 200px;
+    object-fit: cover;
 }
 .navbar-brand img {
     height: 50px;
